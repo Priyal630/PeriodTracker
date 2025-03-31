@@ -8,7 +8,7 @@ from tensorflow.keras.models import load_model
 app = Flask(__name__)
 
 # Load trained model
-MODEL_PATH = "traffic_density_cnn_model.keras"  
+MODEL_PATH = "pcod.keras"  
 model = load_model(MODEL_PATH)
 
 def preprocess_image(image):
